@@ -5,7 +5,6 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "ls -la node_modules/.bin && ./node_modules/.bin/vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
