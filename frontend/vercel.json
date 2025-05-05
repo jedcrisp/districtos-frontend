@@ -1,8 +1,9 @@
 {
   "version": 2,
+  "framework": "vite",
   "builds": [
     {
-      "src": "./package.json",
+      "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
         "distDir": "dist",
@@ -11,5 +12,5 @@
       }
     }
   ],
-  "framework": "vite"
+  "outputDirectory": "dist"
 }
