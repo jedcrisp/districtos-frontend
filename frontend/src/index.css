@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: base styles for HTML */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  @apply bg-gray-50 text-gray-800 m-0 min-h-screen;
+}
+
+/* Remove default styles for buttons and links */
+a {
+  @apply text-blue-600 hover:underline;
+}
+
+button {
+  @apply font-medium px-4 py-2 rounded transition-colors;
+}
