@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node",
+      "config": {
+        "distDir": "dist",
+        "installCommand": "npm install --production=false",
+        "buildCommand": "npm run build"
+      }
+    }
+  ],
+  "framework": "vite"
+}
